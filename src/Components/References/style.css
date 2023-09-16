@@ -1,0 +1,98 @@
+.references{
+    width: 100%;
+    background-color: white;
+    margin-top: 100px;
+    padding: 50px 30px;
+    position: relative;
+    overflow-x: hidden;
+}
+.references .title{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.references .title h1{
+    font-family: "Inter";
+font-size: 50px;
+font-weight: 700;
+letter-spacing: -0.045em;
+text-align: center;
+color: rgba(0, 0, 0, 1);
+
+}
+.references .groub{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.references .groub img , .visible{
+    width: 150px;
+    height: 150px;
+}
+
+.references i {
+    width: 25px;
+    height: 25px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 15px;
+    text-align: center;
+    padding: 5px;
+ }
+ .references .fa-angle-left{
+     position: absolute;
+     z-index: 5;
+     left: 20px;
+     top: 50%;
+ }
+ .references .fa-angle-right{
+     position: absolute;
+     z-index: 5;
+     right: 20px;
+     top: 50%;
+ }
+ .references .spans{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: end;
+    margin: 0 10px;
+    margin-top: 25px;
+    position: absolute;
+    bottom: 0px;
+ }
+ .references .spans span{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    opacity: .25;
+    background-color: #000;
+ }
+ .references .spans span:nth-child(14) , .active{
+    opacity: .75 !important;
+    background-color: #f8552a !important;
+ }
+ @media (max-width:600px) {
+  .references  .groub div:last-child{
+        display: none;
+    }
+    .spans{
+        flex-wrap: wrap;
+    }
+ }
+ @media (max-width:450px) {
+    .references{
+        overflow-x: hidden;
+    }
+ .references   .groub div:nth-child(2){
+        display: none;
+    }
+ }
+ .visible{
+    
+ }

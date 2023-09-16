@@ -1,0 +1,156 @@
+
+
+.footer{
+    width: 100%;
+    background-color: rgba(40, 54, 70, 1);
+    height: fit-content;
+    padding: 40px 0px;
+    overflow-x: hidden !important;
+}
+.footer .footer-content{
+    width: calc(100%-50px);
+    /* display: flex; */
+    margin: 0 50px;
+    margin-top: 50px;
+}
+.footer-content .info{
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+     margin-right: 170;
+}
+.footer-content .info .title{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+.footer-content .info .title img{
+    width: 40px;
+}
+.footer-content .info .title p{
+margin-top: 5px;
+font-family: "Jost";
+font-size: 18px;
+font-weight: 500;
+letter-spacing: -0.025em;
+text-align: left;
+color: rgba(255, 255, 255, 1);
+}
+.footer-content .info .text {
+    width: 100%;
+}
+.footer-content .info .text p{
+    font-family: "Jost";
+font-size: 15px;
+font-weight: 300;
+letter-spacing: 0.8495833873748779px;
+text-align: left;
+color: rgba(255, 255, 255, 1);
+}
+.footer-content .itemwithicon{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+}
+.itemwithicon i{
+    font-size: 15px;
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+}
+.itemwithicon p{
+    font-family: "Jost";
+font-size: 15px;
+font-weight: 300;
+line-height: 68px;
+letter-spacing: 0.8495833873748779px;
+text-align: left;
+color: rgba(255, 255, 255, 1);
+}
+.footer-content .item div:last-child{
+    margin-top: -15px;
+}
+ .footer-content .items-content{
+display: grid;
+grid-template-columns: repeat(5,auto);
+gap: 50px;
+}
+.footer-content .items-content .item{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: left;
+    gap: 25px;
+}
+.footer-content .items-content .main-title p{
+    font-family: "Jost";
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.8495833873748779px;
+    text-align: left;
+    color: rgba(146, 152, 159, 1);
+}
+.footer-content .items-content .item span{
+    font-family: "Jost";
+font-size: 10px;
+letter-spacing: 0.8495833873748779px;
+text-align: left;
+color: rgba(255, 255, 255, 1);
+
+}
+.footer hr{
+      display: block;
+      width: calc(100%-30px);
+      margin: 0 30px;
+      margin-top: 50px;
+      height: 1px;
+      background: rgba(113, 119, 125, 1);
+      /* border: 1px solid rgba(113, 119, 125, 1) */
+}
+.footer .end{
+width: 100%;
+display: flex;
+justify-content: center;
+text-align: center;
+margin-top: 50px;
+}
+.footer .end span{
+font-family: "Jost";
+font-size: 12px;
+letter-spacing: 0.7282143235206604px;
+text-align: center;
+color: rgba(146, 152, 159, 1);
+}
+
+@media (max-width:900px) {
+    .info{
+        margin-right: 50px !important;
+    }
+    .items-content{
+        display: grid ;
+        grid-template-columns: repeat(3,auto) !important;
+    }
+    .info img{
+        width:  30ox !important;
+    }
+    .info p{
+        font-size: 15px !important;
+        font-weight: 300 !important;
+    }
+}
+@media (max-width:600px) {
+    .info{
+        margin-right: 0px !important;
+    }
+    .items-content{
+        display: grid ;
+        grid-template-columns: repeat(1,auto) !important;
+        justify-content: center;
+    }
+    .items-content .item , .info {
+      align-items: center;
+    }
+}

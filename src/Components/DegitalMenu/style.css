@@ -49,6 +49,9 @@ color: black;
     margin-top: 20px;
     padding: 0;
 }
+.digital .hidden{
+    display:none;
+}
 .slider-contect img{
     width: 65%;
     height: 60%;
@@ -96,7 +99,7 @@ color: rgba(0, 0, 0, 0.8);
     border-radius: 5px;
     background: rgba(217, 217, 217, 1);
 }
-.digital .spans span:first-child{
+.digital  .active{
     background: rgba(217, 164, 60, 1) !important;
 
 }
