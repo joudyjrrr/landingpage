@@ -1,0 +1,130 @@
+
+.digital{
+    width: 100%;
+    background: rgba(247, 248, 250, 1);
+    height: 430px;
+    position: relative;
+}
+.digital i {
+   width: 30px;
+   height: 30px;
+   background-color: black;
+   color: white;
+   border-radius: 50%;
+   cursor: pointer;
+   font-size: 20px;
+   text-align: center;
+   padding: 5px;
+}
+.digital .fa-angle-left{
+    position: absolute;
+    z-index: 10;
+    left: 20px;
+    top: 50%;
+}
+.digital .fa-angle-right{
+    position: absolute;
+    z-index: 10;
+    right: 20px;
+    top: 50%;
+}
+.digital .digital-content{
+    padding: 50px 100px;
+}
+.digital-content h1{
+    display: block;
+    width: 100%;
+    justify-content: flex-start;
+    font-family: "Inter";
+font-size: 50px;
+font-weight: 700;
+letter-spacing: -0.045em;
+text-align: left;
+color: black;
+}
+.slider-contect{
+    width: 100%;
+    display: flex;
+    gap: 50px;
+    margin-top: 20px;
+    padding: 0;
+}
+.slider-contect img{
+    width: 65%;
+    height: 60%;
+}
+.slider-contect .text{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+.slider-contect .text h2{
+    font-family: "Inter";
+font-size: 30px;
+font-weight: 600;
+letter-spacing: -0.045em;
+text-align: left;
+color: rgba(0, 0, 0, 0.9);
+
+}
+.slider-contect .text .inner-text{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.slider-contect .text .inner-text p{
+    font-family: "Inter";
+font-size: 18px;
+font-weight: 500;
+line-height: 1.8;
+letter-spacing: -0.045em;
+text-align: left;
+color: rgba(0, 0, 0, 0.8);
+
+}
+.digital .spans{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+   align-items: end;
+   margin: 15px 0;
+}
+.digital .spans span{
+    width: 55px;
+    height: 6px;
+    border-radius: 5px;
+    background: rgba(217, 217, 217, 1);
+}
+.digital .spans span:first-child{
+    background: rgba(217, 164, 60, 1) !important;
+
+}
+
+
+
+@media (max-width:1100px) {
+    .slider-contect h2{
+        font-size: 25px !important; 
+    }
+     .slider-contect p{
+        font-size: 16px !important; 
+    }
+}
+
+@media (max-width:900px) {
+  .slider-contect{
+    display: flex;
+    flex-direction: column;
+  }
+  .slider-contect img{
+    width: 90%;
+  }
+  .slider-contect .text{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+}
