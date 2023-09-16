@@ -2,7 +2,7 @@
 .digital{
     width: 100%;
     background: rgba(247, 248, 250, 1);
-    height: 430px;
+    height: fit-content;
     position: relative;
 }
 .digital i {
