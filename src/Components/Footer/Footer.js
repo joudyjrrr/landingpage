@@ -3,7 +3,7 @@ import "./style.css"
 import img from "../../assets/Group.png"
 const Footer = ()=>{
     return(
-        <div className="footer">
+        <div className="footer"  data-aos="fade-up"  data-aos-duration="1000"  data-aos-delay="1000">
           <div className="footer-content">
             <div className="items-content">
             <div className="info">

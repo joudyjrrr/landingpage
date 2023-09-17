@@ -9,7 +9,7 @@ import img7 from "../../assets/precision.0ce5e977.png"
 import img8 from "../../assets/heart.19e1bbc9.png"
 const Features = ()=>{
     return(
-        <div className="Features">
+        <div className="Features"  data-aos="fade-up"  data-aos-duration="1000"  data-aos-delay="1000">
              <div className="title"> <h1>Key Features of Apex Menu</h1></div>
              <div className="card-groub">
              <div className="card brdr-second">

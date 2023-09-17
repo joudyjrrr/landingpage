@@ -40,7 +40,7 @@ const Degital = () =>{
     };
   
     return(
-        <div className="digital">
+        <div className="digital" data-aos="fade-up"  data-aos-duration="1000"  data-aos-delay="1000">
             <i class="fa-solid fa-angle-left" onClick={handlePrev}></i> 
             <i class="fa-solid fa-angle-right" onClick={handleNext}></i> 
            <div className="digital-content">

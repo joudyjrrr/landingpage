@@ -5,7 +5,7 @@ import ModalNav from "./ModalNanv"
 const Header = ()=>{
   const [showNav, setShowNav] = useState(false)
     return(
-        <div className="header">
+        <div className="header"  data-aos="fade-up"  data-aos-duration="500"  data-aos-delay="500">
         <div className="content-header">
           <div className="logo">
            <img src={logo}/>

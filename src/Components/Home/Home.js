@@ -5,7 +5,7 @@ import img3 from "../../assets/image12.png"
 import img4 from "../../assets/image14.png"
 const Home = ()=>{
     return(
-        <div className="home">
+        <div className="home"  data-aos-duration="1000"  data-aos-delay="1000">
             <div className="imgcontent">
                <img src={img1} />
                <img src={img2} />

@@ -87,7 +87,12 @@ text-align: center;
 color: rgba(255, 255, 255, 1);
 cursor: pointer;
 border: 1px solid rgba(243, 120, 36, 1);
-
+transition: all 0.3s;
+}
+.home button:hover{
+    background-color: white;
+    color:  rgba(243, 120, 36, 1);
+    border: 2px solid rgba(243, 120, 36, 1);
 }
 @media (max-width:1100px) {
     .imgcontent{

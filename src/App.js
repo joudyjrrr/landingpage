@@ -9,7 +9,14 @@ import Features from './Components/Features/Features';
 import References from './Components/References/References';
 import Number from './Components/Numbers/Number';
 import Footer from './Components/Footer/Footer';
+import AOS from "aos";
+import "aos/dist/aos.css";
+import React, { useEffect } from "react";
 function App() {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   return (
     <div className="App">
    <Header/>

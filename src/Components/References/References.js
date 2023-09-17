@@ -1,15 +1,25 @@
 import "./style.css"
 import React , {useState , useEffect} from "react"
-import img1 from "../../assets/fFifteen.webp"
-import img2 from "../../assets/fFourteen.webp"
-import img3 from "../../assets/fThirteen.webp"
+import img1 from "../../assets/firstOne.webp"
+import img2 from "../../assets/firstTwo.webp"
+import img3 from "../../assets/firstThree.webp"
 import img4 from "../../assets/firstFour.webp"
 import img5 from "../../assets/firstFive.webp"
-import img6 from "../../assets/firstEight.webp"
-import img7 from "../../assets/firstNine.webp"
-import img8 from "../../assets/firstSeven.webp"
+import img6 from "../../assets/firstSix.webp"
+import img7 from "../../assets/firstSeven.webp"
+import img8 from "../../assets/firstEight.webp"
+import img9 from "../../assets/firstNine.webp"
+import img10 from "../../assets/firstTen.webp"
+import img11 from "../../assets/fTwelve.webp"
+import img12 from "../../assets/fThirteen.webp"
+import img13 from "../../assets/fFourteen.webp"
+import img14 from "../../assets/fFifteen.webp"
+import img15 from "../../assets/fSixteen.webp"
+import img16 from "../../assets/fSeventeen.webp"
+import img17 from "../../assets/fEighteen.webp"
+
 const References =()=>{
-    const images = [img1, img2, img3 , img4, img5, img6,img7,img8]; // قم بتحميل جميع الصور هنا
+    const images = [img1, img2, img3 , img4, img5, img6,img7,img8,img9,img10,img11,img12,img13,img14,img15,img16,img17]; // قم بتحميل جميع الصور هنا
     const [currentIndex, setCurrentIndex] = useState(0);
     const [displayedImages, setDisplayedImages] = useState([images[0], images[1], images[2]]);
   
@@ -31,7 +41,7 @@ const References =()=>{
     };
   
     return(
-        <div className="references">
+        <div className="references"  data-aos="fade-up"  data-aos-duration="1000"  data-aos-delay="1000">
          <i class="fa-solid fa-angle-left" onClick={handlePrev}></i> 
             <i class="fa-solid fa-angle-right"  onClick={handleNext}></i> 
          <div className="title"><h1>Our References</h1></div>

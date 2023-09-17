@@ -6,7 +6,7 @@ import img3 from "../../assets/image18.png"
 import img4 from "../../assets/image19.png"
 const Review = ()=>{
     return(
-        <div className="review">
+        <div className="review"  data-aos="fade-up"  data-aos-duration="1000"  data-aos-delay="1000">
             <div className="img"><img src={img1}/></div>
             <div className="review-content">
                 <h1>Some of our guests reviews</h1>
